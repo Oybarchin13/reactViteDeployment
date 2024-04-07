@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bigDiv {
+  position: relative;
+}
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  box-shadow: 4px 4px 8px #eee;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+.logo h1 {
+  font-size: 56px;
+}
+.header-right {
+  gap: 60px;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  gap: 10px;
+}
+.icon p {
+  font-size: 30px;
+}
+.button {
+  height: 100%;
+  align-items: center;
+  gap: 20px;
+}
+.button a {
+  color: black;
+}
+.button button {
+  border-radius: 20px;
+  padding: 8px 20px;
+}
+main {
+  width: 100%;
+  margin-top: 20px;
+}
+.text {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.text ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  font-size: 20px;
+}
+.text h1 {
+  font-size: 40px;
+}
+.img-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.img-box {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+  gap: 10px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px;
+}
+.footer-p{
+  font-size: 12px;
+}
+.footer-p a{
+  color: black;
+}
+.icon-footer{
+  margin-top: -18px;
+  display: flex;
+  gap: 10px;
+}
